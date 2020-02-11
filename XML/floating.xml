@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<floating>
+  <floating_item>
+    <name>Флоатинг Стандарт</name>
+    <delay>60 минут</delay>
+    <cost>$25</cost>
+  </floating_item>
+  <floating_item>
+    <name>Флоатинг Лонг</name>
+    <delay>90 минут</delay>
+    <cost>$35</cost>
+  </floating_item>
+  <floating_item>
+    <name>Флоатинг Полное погружение</name>
+    <delay>120 минут</delay>
+    <cost>$45</cost>
+  </floating_item>
+  <floating_item>
+    <name>Флоатинг для двоих (в 2 капсулах)</name>
+    <delay>60 минут</delay>
+    <cost>$45</cost>
+  </floating_item>
+</floating>

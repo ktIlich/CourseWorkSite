@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<massage>
+  <massage_item>
+    <name>Классический массаж</name>
+    <delay>60 минут</delay>
+    <cost>25$</cost>
+  </massage_item>
+  <massage_item>
+    <name>Классический массаж - интенсив</name>
+    <delay>90 минут</delay>
+    <cost>$35</cost>
+  </massage_item>
+  <massage_item>
+    <name>Тайский массаж</name>
+    <delay>90 минут</delay>
+    <cost>35$</cost>
+  </massage_item>
+  <massage_item>
+    <name>Тайский массаж - интенсив</name>
+    <delay>120 минут</delay>
+    <cost>$45</cost>
+  </massage_item>
+  <massage_item>
+    <name>Kreomassage</name>
+    <delay>180 минут</delay>
+    <cost>$50</cost>
+  </massage_item>
+  <massage_item>
+    <name>Массаж стоп</name>
+    <delay>40 минут</delay>
+    <cost>$20</cost>
+  </massage_item>
+  <massage_item>
+    <name>Массаж ног от стоп до колен</name>
+    <delay>40 минут</delay>
+    <cost>$20</cost>
+  </massage_item>
+  <massage_item>
+    <name>Массаж ног от стоп до таза</name>
+    <delay>60 минут</delay>
+    <cost>$25</cost>
+  </massage_item>
+  <massage_item>
+    <name>Массаж воротниковой зоны</name>
+    <delay>40 минут</delay>
+    <cost>$20</cost>
+  </massage_item>
+  <massage_item0>
+    <name>Массаж воротниковой зоны + лицо</name>
+    <delay>60 минут</delay>
+    <cost>$30</cost>
+  </massage_item0>
+  <massage_item1>
+    <name>Массаж рук</name>
+    <delay>40 минут</delay>
+    <cost>$20</cost>
+  </massage_item1>
+</massage>

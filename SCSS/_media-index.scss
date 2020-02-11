@@ -1,0 +1,543 @@
+@media (max-width:1199px) {
+  .question {
+    &-foto {
+      justify-content: space-between;
+      flex-wrap: nowrap;
+
+      &_1,
+      &_2,
+      &_3,
+      &_4 {
+        width: 260px;
+        height: 260px;
+      }
+    }
+  }
+
+  .insta {
+    .row {
+      align-items: center;
+    }
+
+    &-foto {
+      &_main {
+        width: 33%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      &_dop {
+        width: 65%;
+        justify-content: space-between;
+
+        .insta-foto {
+          img {
+            width: 98%;
+          }
+        }
+      }
+    }
+  }
+
+  .cost {
+    &-item {
+      width: 23%;
+      min-height: 450px;
+
+      &_wrap {
+        min-height: 100px;
+      }
+
+      &_btn {}
+
+      &_cost {
+        span {
+          font-size: 32px;
+        }
+      }
+
+      &_text {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width:991px) {
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section {
+    &-title {
+      font-size: 32px;
+    }
+
+  }
+
+  .global-menu {
+    padding-top: 0;
+    padding-bottom: 7px;
+
+    .row {
+      align-items: center;
+    }
+
+    &_list {
+      width: 70%;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+
+      li {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .main {
+    &-title {
+      font-size: 56px;
+    }
+
+    &-subtitle {
+      font-size: 36px;
+    }
+
+    &-btn {
+      &_trsp {
+        font-size: 14px;
+      }
+
+      &_global {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .question {
+    &-foto {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+
+  .who {
+    &-items {
+      width: 350px;
+    }
+
+    &-item {
+
+      &_1,
+      &_2 {
+        min-height: 320px;
+      }
+
+      &_3,
+      &_4 {
+        min-height: 370px;
+      }
+    }
+  }
+
+  .steps {
+    &-item {
+      width: 45%;
+      &s {
+        align-items: center;
+      }
+    }
+    &-video{
+      width: 80%;
+      height: auto;
+      
+    }
+  }
+
+  .insta {
+    .row {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-foto {
+      &_main {
+        width: 49%;
+        margin-right: 6px;
+      }
+
+      &_dop {
+        width: 50%;
+
+        .insta-foto {
+
+          &:nth-child(1),
+          &:nth-child(3) {
+            position: relative;
+            left: 2px;
+          }
+
+          &:nth-child(5),
+          &:nth-child(6),
+          &:nth-child(7),
+          &:nth-child(8) {
+            display: none;
+          }
+
+          width: 49%;
+        }
+      }
+
+      &_mobile {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        width: 99.5%;
+        justify-content: space-between;
+        margin-top: 4px;
+
+        .insta-foto {
+          display: inline-block;
+          width: 24%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .cost {
+    &-item {
+      width: 320px;
+    }
+  }
+
+  .foot {
+    &-link {
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width:767px) {
+  .global-menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    &_list {
+      display: none;
+    }
+  }
+
+  .mobile-menu_btn {
+    display: block;
+  }
+
+  .who {
+    .row {
+      justify-content: center;
+    }
+  }
+
+  .steps {
+    &-video {
+      width: 95%;
+      height: auto;
+    }
+  }
+
+  .insta {
+    &-foto {
+      &_main {
+        margin-right: 0;
+      }
+    }
+  }
+
+  .cost {
+    &-item {
+      width: 45%;
+    }
+  }
+
+  .present {
+    &-item {
+      width: 47%;
+      margin: 0;
+
+      &s {
+        justify-content: space-between;
+      }
+    }
+  }
+
+  .foot {
+    &-logo {
+      width: 100%;
+      text-align: center;
+    }
+
+    .row {
+      justify-content: space-around;
+    }
+
+    &-link {
+      width: 33.3%;
+
+      &_1 {
+        order: 7;
+      }
+
+      &_2 {
+        order: 6;
+      }
+
+      &_3 {
+        order: 8;
+      }
+
+      &_4 {
+        width: 100%;
+        order: 9;
+      }
+
+      &_right {
+        text-align: center;
+        line-height: 1.5;
+        order: 10;
+      }
+    }
+  }
+}
+
+@media (max-width:575px) {
+  section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .section {
+    &-title {
+      font-size: 24px;
+    }
+
+    &-subtitle {
+      font-size: 14px;
+    }
+  }
+
+  .main {
+    &-title {
+      font-size: 48px;
+    }
+
+    &-subtitle {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    &-btn {
+      &_trsp {}
+    }
+  }
+
+  .question {
+    &-subtitle {
+      width: 90%;
+      margin: 0 auto;
+    }
+  }
+
+  .who {
+    &-items {
+      width: 60%;
+    }
+  }
+
+  .steps {
+    &-video {
+      
+    }
+  }
+
+  .insta {
+    .row {
+      justify-content: center;
+    }
+
+    &-foto {
+      &_main {
+        width: 60%;
+      }
+
+      &_dop {
+        justify-content: space-between;
+        width: 61%;
+
+        .insta-foto {
+          width: 50%;
+        }
+      }
+
+      &_mobile {
+        width: 60%;
+        flex-wrap: wrap;
+        margin-top: 0;
+        justify-content: space-between;
+
+        .insta-foto {
+          width: 50%;
+          margin-bottom: 2px;
+
+          img {
+            width: 99%;
+          }
+        }
+      }
+    }
+  }
+
+  .cost {
+    &-item {
+      width: 40%;
+    }
+  }
+
+  .present {
+    &-item {
+      width: 50%;
+      margin: 0 10px 60px;
+
+      &s {
+        justify-content: center;
+      }
+    }
+  }
+
+  .feedback {
+    .slider {
+      width: 80%;
+
+      &-item {}
+    }
+  }
+
+  .foot {
+    &-link {
+      width: 60%;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      &_text {
+        margin: 0;
+      }
+
+      &_1 {
+        order: 6;
+      }
+
+      &_2 {
+        order: 7;
+      }
+
+      &_3 {
+        order: 8;
+      }
+
+      &_4 {
+        width: 100%;
+        order: 9;
+        margin-top: 0;
+      }
+
+      &_right {
+        text-align: center;
+        line-height: 1.5;
+        order: 10;
+      }
+    }
+  }
+}
+
+@media (max-width:495px) {
+  .cost {
+    &-item {
+      width: 80%;
+    }
+  }
+
+  .who {
+    &-items {
+      width: 80%;
+    }
+  }
+  
+  .steps {
+    &-video {
+      height: auto;
+    }
+  }
+  
+  .insta {
+    &-foto {
+
+      &_main {
+        width: 90%;
+      }
+
+      &_dop {
+        width: 90%;
+        justify-content: space-between;
+
+        .insta-foto {
+          width: 50%;
+          left: 0;
+
+          &:nth-child(1),
+          &:nth-child(3) {
+            left: 0;
+          }
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+
+      &_mobile {
+        width: 90%;
+
+        .insta-foto {
+          width: 50%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .present {
+    &-item {
+      width: 80%;
+    }
+  }
+}
+@media (max-width:400px){
+  .steps {
+    &-video {
+      width: 100%;
+    }
+  }
+}

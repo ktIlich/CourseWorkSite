@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subscription>
+  <subscription_item>
+    <name>Безлимитный флоатинг</name>
+    <delay>30 дней</delay>
+    <cost>$320</cost>
+  </subscription_item>
+  <subscription_item>
+    <name>4 сеанса (экономия 800 грн.)</name>
+    <delay>60 дней</delay>
+    <cost>$75</cost>
+  </subscription_item>
+  <subscription_item>
+    <name>8 сеансов (экономия 2400 грн.)</name>
+    <delay>60 дней</delay>
+    <cost>$130</cost>
+  </subscription_item>
+  <subscription_item>
+    <name>12 сеансов (экономия 4200 грн.)</name>
+    <delay>90 дней</delay>
+    <cost>$180</cost>
+  </subscription_item>
+</subscription>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<float_mas>
+  <float_mas_item>
+    <name>Kreomassage + флоатинг</name>
+    <delay>240 минут</delay>
+    <cost>$65</cost>
+  </float_mas_item>
+  <float_mas_item>
+    <name>Массаж воротниковой зоны (40 мин) + флоатинг (60 мин)</name>
+    <delay>100 минут</delay>
+    <cost>$40</cost>
+  </float_mas_item>
+  <float_mas_item>
+    <name>Классический массаж (60 мин) + флоатинг (60 мин)</name>
+    <delay>120 минут</delay>
+    <cost>$55</cost>
+  </float_mas_item>
+  <float_mas_item>
+    <name>Классический массаж (90 мин) + флоатинг (60 мин)</name>
+    <delay>150 минут</delay>
+    <cost>$65</cost>
+  </float_mas_item>
+  <float_mas_item>
+    <name>Тайский массаж (90 мин) + флоатинг (60 мин)</name>
+    <delay>150 минут</delay>
+    <cost>$65</cost>
+  </float_mas_item>
+  <float_mas_item>
+    <name>Тайский массаж (120 мин) + флоатинг (60 мин)</name>
+    <delay>180 минут</delay>
+    <cost>$80</cost>
+  </float_mas_item>
+</float_mas>

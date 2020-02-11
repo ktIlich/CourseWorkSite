@@ -1,0 +1,51 @@
+@import "header";
+
+.contact {
+  font-size: 24px;
+  color: $text-color;
+
+  &-content {
+    justify-content: center;
+  }
+
+  &-box {
+    width: 100%;
+    text-align: center;
+
+    a {
+      display: inline-block;
+      color: $text-color;
+      margin-bottom: 5px;
+      text-decoration: none;
+
+      &:hover {
+        color: $text-color;
+        text-decoration: underline;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+
+    .foot-link_icon {
+      display: inline-block;
+      margin: 5px;
+    }
+  }
+
+  &-btn {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 25px;
+  }
+}
+
+
+.map {
+  padding: 0;
+}
+
+@import "footer";
+@import "popup";
+@import "media-contact";

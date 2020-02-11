@@ -1,0 +1,95 @@
+@import "header";
+
+
+.main {
+  position: relative;
+  height: 600px;
+  background: url(../img/present_page/present-bg.png) center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  &-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $text-color;
+    font-size: 36px;
+    font-weight: 400;
+  }
+}
+
+.present{
+  background-color: #eceff1;
+  text-align: center;
+  .row{
+    justify-content: space-around;
+  }
+  &-title{
+    color:$text-color;
+    margin-bottom: 50px;
+    margin-top: 0;
+  }
+  &-item{
+    position: relative;
+    background: url(../img/index_page/present/sertificat.png) center bottom no-repeat;
+    background-size: cover;
+    min-height: 444px;
+    text-align: center;
+    border:1px solid $main-color;
+    margin-bottom: 15px;
+    transition: all 0.5s;
+    width: 250px;
+    &:hover{
+      box-shadow: 2px 2px 40px 7px rgba(37, 99, 128, 0.31);
+      cursor: pointer;
+      transform: translateY(-10px);
+    }
+    &:focus{
+      outline: none;
+    }
+    &_wrap{
+      padding: 15px 10px;
+      background-color: $main-color;
+      h3{
+        font-size: 18px;  
+        font-weight: 700;
+        color: #ffffff;
+      }
+    }
+    &_cost{
+      font-size: 18px;
+      color:$text-color;
+      span{
+        font-size: 36px;
+        color:$main-color;
+      }
+    }
+    &_btn{
+      position: absolute;
+      padding: 10px 30px;
+      bottom: 30px;
+      left:50%;
+      transform: translateX(-50%);
+    }
+  }
+  &-info{
+    color:$text-color;
+    strong{
+      font-weight: 700;
+    }
+  }
+  &-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    color:$main-color;
+    &_wrap{
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+
+@import "footer";
+@import "popup";
+@import "media-present";
